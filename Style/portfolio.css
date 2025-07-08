@@ -7,6 +7,12 @@
     "wdth" 100;
 }
 
+/* Body
+Body {
+  margin-top: -10%;
+  padding: 0%;
+} */
+
 /* Header */
 .header {
   max-width: 1600px;
@@ -14,6 +20,8 @@
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+  background-color: #FFF8F3;
+  margin: 0px;
 }
 
 /* Nav Style */
@@ -40,8 +48,27 @@ nav {
   cursor: pointer;
 }
 
+/* shared style */
 .dark-2 {
   color: #474747;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+
+
+}
+
+.secendory-bgc {
+  background-color: #FFF8F3;
 }
 
 .text-r {
@@ -91,4 +118,29 @@ nav ul li a {
 .banner-image {
   width: 584px;
   height: 676px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-me {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.item-description {
+  font-weight: 600;
+}
+
+.about-me-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  margin-bottom: -10px;
 }
